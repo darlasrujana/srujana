@@ -9,10 +9,19 @@ class leapyear
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int year = 2016;
-		if((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
+			Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		if(n%4==0&&n%100!=0)
+		{
 			System.out.println("yes");
+		}
+		else if(n%400==0)
+		{
+			System.out.println("yes");
+		}
 		else
+		{
 			System.out.println("no");
+		}
 	}
 }
