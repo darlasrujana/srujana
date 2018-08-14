@@ -15,8 +15,7 @@ class mul
 		for(int i=1;i<=d;i++)
 		{
 			int mul=n*i;
-			System.out.println(mul);
-			System.out.println();
+			System.out.println(mul+" ");
 		}
 	}
 }
