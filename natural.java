@@ -9,13 +9,14 @@ class natural
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int num = 2, sum = 0;
+	 	  int i, sum = 0;
+  	      Scanner sc=new Scanner(System.in);
+          int n=sc.nextInt();
+          for(i=1;i<= n;++i)
+          {
+              sum=sum+i; 
+          }
 
-		for(int i = 1; i <= num; ++i)
-		{
-            		sum += i;
-		}
-
-		 System.out.println("Sum = " + sum);
-	 }
+          System.out.println(sum);
+	}
 }
