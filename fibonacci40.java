@@ -9,16 +9,16 @@ class fibonacci40
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int n,a=1,b=1,c=1;
-		Scanner sc=new Scanner(System.in);
+		int n,a=1,b=1,temp=1;
+		Scanner scan=new Scanner(System.in);
 		System.out.print(" ");
-		n=sc.nextInt();
+		n=scan.nextInt();
 		System.out.print(" ");
 		for(int i=1;i<=n;i++)
 		{
             		a=b;
-            		b=c;
-            		c=a+b;
+            		b=temp;
+            		temp=a+b;
             		System.out.print(a+" ");
 		}
 	}
